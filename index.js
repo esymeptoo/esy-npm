@@ -1,1 +1,5 @@
-console.log('esy-npm')
+const deepClone = require('./lib/deepClone')
+
+module.exports = {
+  deepClone,
+}

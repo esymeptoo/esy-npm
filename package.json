@@ -5,8 +5,18 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test/. --coverage"
   },
   "author": "chi.zhou",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "esy-npm": "^1.0.1"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "pre-commit": "^1.2.2"
+  }
 }
