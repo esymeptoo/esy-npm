@@ -1,1 +1,1 @@
-this is a npm package for test
+you can use npm install esy-npm to use it for example
